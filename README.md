@@ -5,4 +5,6 @@ A warm and inviting cafe where coffee is served to delight your hearts with plea
   * CSS files
   * Images
   * Documentation
-  ## LIVE Demo
+## LIVE Demo
+   https:/github.com/webwizzards/thedailygrind
+  
