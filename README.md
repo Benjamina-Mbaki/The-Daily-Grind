@@ -3,4 +3,4 @@ A warm and inviting cafe where coffee is served to delight your hearts with plea
 ## Technologies Used
   * HTML
   * CSS
-  ## LIVE dEMO
+  ## LIVE Demo
