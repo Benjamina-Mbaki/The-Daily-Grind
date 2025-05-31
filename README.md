@@ -6,4 +6,4 @@ A warm and inviting cafe where coffee is served to delight your hearts with plea
   * Images
   * Documentation
 ## LIVE Demo
-  
+  o
