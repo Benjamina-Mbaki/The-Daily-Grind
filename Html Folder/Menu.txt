@@ -1,71 +1,207 @@
-<!DOCTYPE html>
 <html>
 <head>
-<title>Order Coffee Online</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee Shop Menu</title>
 <link rel="icon" type="images/jpg" href="images/logo.jpeg">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
 </head>
 <body>
+<main>
+<section class="Menu-section">
 <header>
-<h1>Welcome To The Dialy Grind</h1>
-<p>Order your favorite coffee online!</p>
+<h2 class="section-title">Our Menu</h2>
 </header>
-<section class="order-form">
-<h2>Place Your Order</h2>
-<form action="#" method="POST">
-<label for="coffee-type">Select Coffee Type:</label>
-<select id="coffee-type" name="coffee-type">
-<option value="espresso">Espresso</option>
-<option value="cappuccino">Cappuccino</option>
-<option value="latte">Latte</option>
-<option value="americano">Americano</option>
-<option value="Pumpkin spiced latte">Pumpkin spiced latte</option>
-<option value="Peppermint Mocha">Peppermint Mocha</option>
-<option value="Iced Coffee">Iced Coffee</option>
-<option value="Macchiato">Macchiato</option>
-<option value="Cold Brew">Cold Brew</option>
-<option value="Flat White">Flat White</option>
-</select>
-<label for="coffee-type">Select deserts:</label>
-<select id="coffee-type" name="coffee-type">
-<option value="None">None</option>
-<option value="Biscotti">Biscotti</option>
-<option value="Coffee Cake">Coffee Cake</option>
-<option value="Bread">Bread</option>
-<option value="Croissants">Croissants</option>
-<option value="Muffins">Muffins</option>
-<option value="Scones with Jam">Scones with Jam</option>
-</select>
-
-<label for="coffee-size">Select Size:</label>
-<select id="coffee-size" name="coffee-size">
-<option value="small">Small</option>
-<option value="medium">Medium</option>
-<option value="large">Large</option>
-</select>
-<label for="coffee-size">Select Quantity:</label>
-<select id="coffee-size" name="coffee-size">
-<option value="1">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-<option value="5">5</option>
-<option value="6">6</option>
-<option value="7">7</option>
-</select>
-<label for="extras">Extra Ingredients:</label>
-<input type="checkbox" value="sugar"> Sugar
-<input type="checkbox" value="milk"> Milk
-<input type="checkbox" value="vanilla"> Vanilla
-<label for="name">Your Name:</label>
-<input type="text" id="name" required>
-
-<label>Your Phone Number:</label>
-<input type="tel" required>
-
-<button type="submit">Submit Order</button><br>
-<a href="menu1.html" title="menu">BACK</a>
-</form>
+<font color="brown"><h3>Types of coffee we offer</h3></font>
+<br><br>
+<div class="section-content">
+<ul class="menu-list">
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/esp.jpeg" width="200" alt="Espresso" class="menu-image">
+<div class="text-box">
+<h3 class="name">Espresso</h3>
+<p class="text">A strong, concentrated coffee made by forcing hot water through finely-ground beans</p>
+<p class="text-me"><b>R30</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/la.jpeg" width="200" alt="latte" class="menu-image">
+<div class="text-box">
+<h3 class="name">Latte</h3>
+<p class="text">Similar to a cappuccino but with more steamed milk and a thinner layer of foam, making it milder and creamier.</p>
+<p class="text-me"><b>R25</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/capp.png" width="200" alt="Cappuccino" class="menu-image">
+<div class="text-box">
+<h3 class="name">Cappuccino</h3>
+<p class="text"> Espresso is combined with steamed milk and topped with a thick layer of milk foam, creating a creamy texture.</p>
+<p class="text-me"><b>R32</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/pum1.jpeg" width="200" alt="Pumpkin spiced latte" class="menu-image">
+<div class="text-box">
+<h3 class="name">Pumpkin spiced latte</h3>
+<p class="text">A seasonal favorite featuring espresso, steamed milk, and a blend of pumpkin spice flavors like cinnamon, nutmeg, and cloves.</p>
+<p class="text-me"><b>R41</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/pmocha.jpeg" width="200" alt="Peppermint Mocha" class="menu-image">
+<div class="text-box">
+<h3 class="name">Peppermint Mocha</h3>
+<p class="text"> festive coffee drink combining espresso, steamed milk, chocolate syrup, and peppermint flavoring.</p>
+<p class="text-me"><b>R21</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/am.jpeg" width="200" alt="Americano" class="menu-image">
+<div class="text-box">
+<h3 class="name">Americano</h3>
+<p class="text"> Espresso diluted with hot water for a smoother taste.</p>
+<p class="text-me"><b>R37</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/macc.jpeg" width="200" alt=" Macchiato" class="menu-image">
+<div class="text-box">
+<h3 class="name"> Macchiato</h3>
+<p class="text">Espresso with a small amount of milk or foam for a bold taste.</p>
+<p class="text-me"><b>R27</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/ice1.jpeg" width="200" alt=" Iced Coffee" class="menu-image">
+<div class="text-box">
+<h3 class="name"> Iced Coffee</h3>
+<p class="text">Brewed coffee chilled and served over ice, sometimes with milk or syrup.</p>
+<p class="text-me"><b>R30</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/brew.png" width="200" alt="Cold Brew" class="menu-image">
+<div class="text-box">
+<h3 class="name">Cold Brew</h3>
+<p class="text">Coffee steeped in cold water for several hours, ring in a smooth, less acidic drink</p>
+<p class="text-me"><b>R40</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="images/free.png" alt="Flat White" class="menu-image">
+<div class="text-box">
+<h3 class="name">Flat White</h3>
+<p class="text">Similar to a latte but with a stronger coffee flavor and velvety microfoam</p>
+<p class="text-me"><b>R20</b></p>
+</div>
+</div>
+</li>
+</ul>
+</div>
 </section>
+</main>
+<main>
+<section class="Menu-section">
+<h4 class="section-me">Side desserts</h4>
+<div class="section-content">
+<ul class="menu-list">
+<li class="menu-item">
+<div class="menu-me">
+<img src="pastries/cros.jpeg" width="200" alt="Croissants" class="menu-image">
+<div class="text-box">
+<h3 class="name">Croissants</h3>
+<p class="text">flaky, and buttery pastries with a golden crust, often enjoyed plain or filled with chocolate, almond paste, or ham and cheese.</p>
+<p class="text-me"><b>R15</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="pastries/muff.jpeg" width="150" alt="Muffins" class="menu-image">
+<div class="text-box">
+<h3 class="name">Muffins</h3>
+<p class="text"> Soft, moist, and spghtly dense baked treats, available in flavors pke blueberry, chocolate chip, or banana, making them a great grab-and-go snack</p>
+<p class="text-me"><b>R8</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="pastries/jam1.jpeg" width="200" alt="Scones with Jam" class="menu-image">
+<div class="text-box">
+<h3 class="name">Scones with Jam</h3>
+<p class="text"> Crumbly, spghtly sweet pastries that pair well with butter, clotted cream, or fruit jam, offering a satisfying balance of richness and tartness.</p>
+<p class="text-me"><b>R10</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="pastries/bis.jpeg" width="150" alt="Biscotti" class="menu-image">
+<div class="text-box">
+<h3 class="name">Biscotti</h3>
+<p class="text"> Twice-baked Itapan cookies with a crunchy texture, perfect for dunking into coffee or tea, commonly flavored with almonds, chocolate, or citrus zest.</p>
+<p class="text-me"><b>R10</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="pastries/coffee c.jpeg" width="200" alt="Coffee Cake" class="menu-image">
+<div class="text-box">
+<h3 class="name">Coffee Cake</h3>
+<p class="text"> A tender, spiced cake often topped with a cinnamon streusel or nuts, adding a touch of warmth and sweetness to complement a good coffee brew.</p>
+<p class="text-me"><b>R50</b></p>
+</div>
+</div>
+</li>
+<li class="menu-item">
+<div class="menu-me">
+<img src="pastries/breads.jpeg" width="200" alt="Coffee Cake" class="menu-image">
+<div class="text-box">
+<h3 class="name">Baguette</h3>
+<p class="text"> a delightful baked treat infused with the rich, aromatic flavors of coffee.</p>
+<p class="text-me"><b>R13</b></p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
