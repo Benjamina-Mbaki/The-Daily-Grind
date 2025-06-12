@@ -1,0 +1,67 @@
+body {
+    font-family: poppins;
+    background-color: hsl(39, 46%, 77%);
+    color: hsl(20, 33%, 27%);
+    text-align: left;
+    padding: 20px;
+}
+header {
+    background-color: hsl(26, 36%, 57%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.order-form {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+}
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+select, input[type="text"], input[type="email"],input[type="tel"] {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid hsl(26, 30%, 50%);
+}
+#coffee-sizes{
+   width: 80%; 
+}
+select{
+    width: 60%;
+}
+#coffee-type{
+    width: 65%;
+}
+#coffee-size{
+    width: 10%;
+}
+button {
+    background-color: hsl(20, 33%, 27%);
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: hsl(26, 30%, 50%);
+}
+select, input[type="text"], input[type="email"],input[type="tel"] {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid hsl(26, 30%, 50%);
+    width: 70%;
+}
