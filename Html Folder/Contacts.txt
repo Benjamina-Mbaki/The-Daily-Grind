@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="stles">
-        <meta charset="uft=8">
-        <meta name="viewport" content="width=device-width, initial-scale=1,0">
-        <link rel="stylesheet" type="text/css" href="css/syle.css">
+<title>contact us</title>
+<script src="https://kit.fontawesome.com/70254db874.js" crossorigin="anonymous"></script>
+<link rel="icon" type="images/jpg" href="images/logo.jpeg">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-            <div class="contact-container">
-                <center>
-                <h1>CONTACT US</h1>
-                
-                    <h3><i><p>We are buzzing to hear from you!</p></i></h3>
-                            <section>
-                                <h2>Address:</h2>
-                                <p>
-                                33 Colerem Street.
-                                <br>
-                                    Sandton South Africa
-                                </p>
-                            </section>
-                            <section>
-                                <h2>Phone:</h2>
-                                <p>063-521-6534</p>
-                            </section>
-                            <section>
-                                <h2>E-mail:</h2>
-                            
-                                <p>dailygrind@gmail.com</p>
-                            </section>
-                            <hr color="brown" size="5">
-                            <h3>Send us a message</h3>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" name="name" placeholder="FullName">
-                                        <br><br>
-                                <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email ID">
-                                        <br>
-                                        <textarea placeholder="Message" rows="4"required></textarea>
-                                        <br>
-                                        <button type="submit">SEND MESSAGE</button>
-                            </center>
-                            </div>
-                            </div>
-                            </form>
-                            </div>
-                            </div>
-                            </div>
-                            </section>
+<section class="contact">
+<div class="container">
+<h2>Contact Us</h2>
+<div class="contact-wrapper">
+<div class="contact-form">
+<h3>Send us a message</h3>
+<form>
+<div class="form-group">
+<input type="text" name="name" placeholder="Your name">
+</div>
+<div class="form-group">
+<input type="email" name="email" placeholder="Your Email">
+</div>
+<div class="form-group">
+<textarea name="message" rows="4" placeholder="Your message"></textarea>
+</div>
+<button type="submit">Send Message</button>
+</form>
+</div>
+<div class="contact-info">
+<h3>Contact Information</h3>
+<p><i class="fa-solid fa-phone"></i>+27 63 521 6534</p>
+<p><i class="fa-solid fa-envelope"></i>dailygrind@gmail.com</p>
+<p><i class="fa-solid fa-location-pin"></i>33 Colerem Street.Sandton South Africa</p>
+</div>
+</div>
+</div>
+</section>
 
-                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
-
