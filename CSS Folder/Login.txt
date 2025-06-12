@@ -1,0 +1,76 @@
+.Menu-section .menu-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 110px;
+
+}
+.section-title{
+    text-align: center;
+}
+.Menu-section .menu-list .menu-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: calc(100% / 3 - 110px);
+    justify-content: space-between;
+}
+.Menu-section .menu-list .menu-item .menu-image{
+    max-width: 83%;
+}
+.section-title{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section-me{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: underline;
+    text-align: center;
+}
+button {
+    background-color: rgb(15, 14, 14);
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(15, 13, 12);
+}
+.text{
+    font-size: 10px;
+    font-family: "poppins";
+}
+.text-me{
+	font-size: 15px;
+    color: brown;
+}
+header{
+    margin: auto;
+}
+body{
+    font-family: poppins;
+}
+.text-box{
+    width: auto;
+    height: auto;
+}
+img{
+    height: auto;
+}
+.menu-me{
+    border: 1px solid;
+    box-shadow: 0 0 10px black;
+    border-radius: 15px;
+    background-color: white;
+}
+body{
+    background-color: rgb(233, 220, 145);
+}
+h3{
+    font-family: "poppins";
+}
